@@ -53,9 +53,65 @@ print(idade) ;
 eai Nathan Bazon seu email é nanabazon@gmail.com
 17
   
+ }
+ ```
+  ## Aula 2 
  
+ **${qtd_por_pessoa.toStringAsFixed(3)}**
+ O método toStingAsFixed() foi usado para formatar as casas (3) decimais da variável (qtd_por_pessoa) double
+ 
+ ```dart
+ 
+ email = "nanabazon@gmail.com";
+senha = "*********";  
+cpf = "517.000.555-22"; 
+data_nasc = "13012002";
+endereco = "manoel molina martins";  
+sexo = "masculino";
+celular = "(19)992927438";  
+curso = "programador de dispositivos móveis";  
+nome_social = "Nathan";  
+ano_nasc = 2002;  
+idade = 2019 - ano_nasc;  
+qtd_moradores = 5;  
+renda_familiar = 2500;
+qtd_por_pessoa = renda_familiar / qtd_moradores;
   
-  }
+print("\n**************");  
+print("\nOlá, $nome $sobrenome, tudo bem?");  
+print("Veja se seus dados pessoais abaixo estão corretos");
+print("nome: $nome $sobrenome");
+print("e-mail: $email ");
+print("senha: $senha");
+print("cpf: $cpf");
+print("data_nasc $data_nasc");
+print("endereco: $endereco");
+print("sexo: $sexo");
+print("celular: $celular");
+print("curso: $curso"); 
+  
+if (nome_social != "")
+{
+print("nome_social: $nome_social");
+}  
+print("ano_nasc: $ano_nasc");
+print("idade: $idade");
+print("qtd_moradores: $qtd_moradores");
+print("renda_familiar: R\$ $renda_familiar");
+print("qtd_por_pessoa: R\$ ${qtd_por_pessoa.toStringAsFixed(3)}");  
+print("\n**************");
+print("");
+print("");
+
+
+}
+ ``` 
+  
+  
+  
+
+
+
 
 
 
