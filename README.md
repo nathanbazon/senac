@@ -146,8 +146,29 @@ print("");
       print("Vacilão, aposto que você faz ADM.");
   }
   ```
+  
+  ### Exemplo if 2
        
-
+void main() {
+  
+double  nota1, nota2, media;
+  
+nota1 = 3;
+nota2 = 5;
+media = (nota1 + nota2) / 2;
+  
+if (media >=5) 
+{
+  
+print("Parabéns, você foi aprovado com média $media"); 
+}
+else  
+{
+print("Você foi reprovado com a media $media");
+  
+  
+}
+}  
 
 
 
