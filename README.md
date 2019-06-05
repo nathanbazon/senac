@@ -224,7 +224,54 @@ print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7.
   }  
 }  
 ```
+### if aninhado ou if encadeado
 
+Quando temos mais do que 2 testes possíveis, é necessário alternar a estrutura e acrescentar um **else is** após o primeiro if.
+
+```dart
+if(teste)
+{
+  //faz isso
+}
+else if(teste)
+{
+  //faz isso
+}
+  else
+{
+  //nenhum dos anteriores 
+}
+```
+## Exemplo if else if
+```dart
+  void main() {
+  String cidade_natal; 
+  cidade_natal = "rio de janeiro";
+  if(cidade_natal.toLowerCase() == "são joão da boa vista")
+  {
+    print("São Joanense");
+  }
+  else if(cidade_natal.toLowerCase() == "santo antônio do jardim")
+  {
+    print("Jardinense");
+  }
+  else if(cidade_natal.toLowerCase() == "rio de janeiro")
+  {
+    print("Carioca");
+  }
+  else if(cidade_natal.toLowerCase() == "são paulo")
+  {
+    print("Paulista");
+  }
+  else if(cidade_natal.toLowerCase() == "bahia")
+  {
+    print("Baiano");
+  }
+   else
+   {
+     print("Cidade Não Cadastrada");
+  }
+}
 
 
 
