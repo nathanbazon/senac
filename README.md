@@ -276,3 +276,41 @@ else if(teste)
 
 
 
+
+   ### Aula 4 - Operadores Lógicos
+   
+   ### Operador E (AND) &&
+    
+   *"Somente será **VERDADE** se todas as expressões forem VERDADE".*  
+    
+   ### Operador OU (OR) ||
+         
+   *"Somente será **FALSO** se todas as expressões forem FALSAS".*
+   
+  
+   ### Exemplo teste booleano
+   ```dart
+   void main() {
+ 	
+ 	 bool var_a, var_b;
+    var_a = true;
+    var_b = false;
+    print((!var_a && var_a) || (var_b || !var_b)); 
+    int numero = 10; 
+    if(var_a == var_b)
+    {
+      numero = 666;
+    }
+    else
+    {
+      numero = numero + 1;
+    }  
+    print(numero);
+}
+    
+      
+      
+   
+
+
+
