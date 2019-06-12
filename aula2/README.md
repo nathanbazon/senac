@@ -15,7 +15,8 @@ void main() {
  ## Trocar a cor de fundo da tela
  
  Foi usado o widget Material* e nele foi definido a cor de fundo.
- 
+
+```dart
  import 'package:flutter/material.dart';
 
 void main() {
