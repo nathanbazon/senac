@@ -32,16 +32,11 @@ void main() {
 ```dart
 void main() {
   runApp(
-     new Material(
+    new Material(
       color: Colors.lightBlue,
-      child: new Center(
-        child: new Text("Hello World",
-          textDirection: TextDirection.ltr,
-        ), //Text
-       ), //Center
-      ),//Material
-   );
-  }
+    ),
+  );
+}
   ```
   
   ## Formatando o texto:
