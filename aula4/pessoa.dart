@@ -77,9 +77,6 @@ bool mostrar_idade(int ano)
 }
 
 
-
-
-
   }
 
 
